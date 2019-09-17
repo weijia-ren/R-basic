@@ -1,0 +1,99 @@
+---
+title: "10. Markdown"
+author: "Weijia Ren"
+date: "September 13, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Headers 
+
+# Title 0 
+## title 1
+### title 2
+#### title 3
+
+
+# Code 
+
+code chunk
+
+``` example 
+it can show as code chunk
+
+* to show code and output, {r} or {r dataset}, 
+* to just show output: {r, echo=FALSE}
+* don't show code or output: {r, include=FALSE} 
+
+```
+inline code : `r print(pi)` 
+
+# Emphasis 
+
+* bold    : **a** or __a__
+* italic  : *b* or _b_
+* bold and italic: *you can **combine** them *
+* strikethrough:  ~~cc~~
+
+# Lists & Bullets  
+### bullet: * or -   
+### list
+#### numbered
+1. aa
+2. bb   
+
+#### sub bullets
+* item1
+* item2
+    * item 2a (two tabs before, one space after dot)
+    * item 2b   
+
+#### ordered
+1. item1
+1. item2
+1. item3
+    1. item 3a (two tabs before, one space after dot)
+    1. item 3b
+
+
+    
+    
+
+# Images & Links
+
+link    :  [RMarkdown](http://rmarkdown.rstudio.com)
+
+image   : 
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+# Blockquotes 
+
+As He said:
+
+> This is the best age
+> This is the worst age. 
+
+# Table 
+
+First | Second
+------|--------
+content from cell 1|content from cell 2
+content from cell three|content from cell four
+
+
+
+## 
+
+
+
+
+
+
+
+
+
+
+
