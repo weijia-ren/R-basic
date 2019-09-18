@@ -141,5 +141,27 @@ mydata %>%
   ggplot() +
   geom_line(mapping=aes(Age,SAT))+facet_wrap(~Gender)
 
+#######################  mutate  ############################
+mydata %>% mutate(SAT_new=round(SAT/1000,2))      # create new column
+mydata %>% mutate(SAT_new=round(SAT/1000,2),SAT_new2=round(SAT_new))      # create new column
+
+min_rank(c(50,100,200))               # rank ascending
+min_rank(desc(c(50,100,200)))         # rank descending 
+
+mydata %>% mutate(rank=min_rank(desc(SAT)))  # creat a new column 'rank' as the descending rank of SAT
+mydata %>% group_by(Gender) %>% 
+  mutate(rank=min_rank(desc(SAT)))  # creat a new column 'rank' as the descending rank of SAT by Gender
+
+
+mydata$Age                 # request Age column as a vection
+mydata %>% pull(Age)       # same as above
+
+
+
+
+
+
+
+
 
 

@@ -58,6 +58,23 @@ sas <- read_sas("C:/Users/ren_w/Desktop/R code/R-basic/data/test.sas7bdat")
 load ("C:/../mydata.RData")
 load ("C:/../mydata.rda")
 
+# 8. from Excel (xls, xlsx)
+library(readxl)
+dir1<- "C:/Users/ren_w/Desktop/R code/R-basic/data/students.xls"
+dir2<- "C:/Users/ren_w/Desktop/R code/R-basic/data/students.xlsx"
+xls <- read_excel(dir1)
+xlsx <- read_excel(dir2)
+xls.sheet <- read_excel(dir1,sheet="Full")  # same with xlsx
+xls.sheet <- read_excel(dir1,sheet=1)
+
+xls.chunk <- read_excel(dir1,n_max=3)         # read in first three rows
+xls.chunk <- read_excel(dir1,range="A1:D4")   # read in data in A1:D4
+xls.chunk <- read_excel(dir1,range=cell_rows(1:4))   # read row [1,4)
+xls.chunk <- read_excel(dir1,range=cell_cols("B:D"))   # read in column B, C, D
+xls.chunk <- read_excel(dir1,range="Full!B1:D5")
+
+xls.NA <- read_excel(dir1,na="US")      # set all value "US" to missing (NA)
+
 
 ################## Outport DATA #################################
 # 1. to TXT
@@ -84,4 +101,13 @@ save(object1, object2, file = "mywork.rda") # saving selected objects
 # 6. to CSV
 library(tidyverse)
 write_csv(mydata,path="C:/Users/ren_w/Desktop/R code/R-basic/data/csv_write.csv")
+
+# 7. to Excel (xls, xlsx)
+library(writexl)   ## cannot load
+write_xlsx(list(sheet_name1=xls, sheet_name2=xlsx),path="C:/Users/ren_w/Desktop/R code/R-basic/data/xls_write.xlsx")
+# sheet name = the dataset to output
+
+
+
+
 

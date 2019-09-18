@@ -1,9 +1,11 @@
 ---
 title: "10. Markdown"
 author: "Weijia Ren"
-date: "September 13, 2019"
-output: html_document
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: html_document   
 ---
+
+output could also be: word_document, pdf_document 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -73,8 +75,8 @@ image   :
 
 As He said:
 
-> This is the best age
-> This is the worst age. 
+> This is the best time. 
+> This is the worst time 
 
 # Table 
 

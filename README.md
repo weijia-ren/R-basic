@@ -9,15 +9,17 @@
 * re-structure/transform: select variable, filter case, create new variable, compute summaries.    
 * basic calculation  
 * data exploration  
-* visulization: plot data   
+* visulization: plot data
 * modeling 
 
 
 # Resources 
  [R for Data Science](https://r4ds.had.co.nz)    
  [RStudio blog](https://blog.rstudio.com)    
- [r-bloggers](http://www.r-bloggers.com)
-
+ [r-bloggers](http://www.r-bloggers.com)    
+ [cheatsheet](http://rstudio.com/cheatsheets)    
+ [ggplot extensions](https://www.ggplot2-exts.org)
+ 
 
 ### tidyverse    
   * ggplot2
