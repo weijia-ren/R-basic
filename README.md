@@ -3,6 +3,8 @@
 ### Basic work flow:
 #### import -> tidy -> (transform/visualise/model) -> communicate
 
+This repository contains the following sample codes. The purpose of the sample codes was to aide coding efficiency and accuracy, as well as serve the purpose of self referencing. 
+
 * working directory  
 * install library  
 * import/export  
