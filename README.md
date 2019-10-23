@@ -21,6 +21,8 @@ This repository contains the following sample codes. The purpose of the sample c
  [r-bloggers](http://www.r-bloggers.com)    
  [cheatsheet](http://rstudio.com/cheatsheets)    
  [ggplot extensions](https://www.ggplot2-exts.org)
+ [Advanced R](http://adv-r.had.co.nz/)
+ [Hands-on Programming with R](https://d1b10bmlvqabco.cloudfront.net/attach/ighbo26t3ua52t/igp9099yy4v10/igz7vp4w5su9/OReilly_HandsOn_Programming_with_R_2014.pdf)
  
 
 ### tidyverse    
