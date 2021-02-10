@@ -43,11 +43,12 @@ This repository contains the following sample codes. The purpose of the sample c
     
   
 ### Get help    
-* [Google](http://www.google.com): R error message:...    
-* [stackoverflow](https://stackoverflow.com): [R] error message..., regenerate data: dput(mtcars)   * [R for Graduate Student](https://bookdown.org/yih_huynh/Guide-to-R-Book/): Basic Guidebook
-* [Bookdown](https://bookdown.org/home/archive/)
-* [R for Data Science](https://r4ds.had.co.nz/)
-* [ModernDive: An Introduction to Statistical and Data Sciences via R](https://moderndive.com/)
+* [Google](http://www.google.com)     
+* [stackoverflow](https://stackoverflow.com)      
+* [R for Graduate Student](https://bookdown.org/yih_huynh/Guide-to-R-Book/): Basic Guidebook       
+* [Bookdown](https://bookdown.org/home/archive/)      
+* [R for Data Science](https://r4ds.had.co.nz/)     
+* [ModernDive: An Introduction to Statistical and Data Sciences via R](https://moderndive.com/)     
 
 
 
